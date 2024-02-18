@@ -1,11 +1,4 @@
-# FlowMur
-To be updated.
-
-## Model Architecture
-
-<img src="./img/small-cnn.png" width="55%">
-<img src="./img/large-cnn.png" width="48%">
-<img src="./img/rnn.png" width="31%">
-<img src="./img/resnet.png" width="65%">
-
+# Source code of FlowMur
+Jiahe Lan, Jie Wang, Baochen Yan, Zheng Yan and Elisa Bertino, "[FlowMur: A Stealthy and Practical Audio Backdoor Attack with Limited Knowledge](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a148/1Ub245RZpo4)," IEEE S&P, 2024.
+## The workflow of FlowMur
 
