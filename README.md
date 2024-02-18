@@ -12,15 +12,15 @@ dataset --> Google Speech Command Dataset V2
 
 target model --> SmallCNN；surrogate model --> LargeCNN
 
-#class of D --> 10; #class of Daux --> 25; #class of Dsur --> 26
+#class of $D$ --> 10; #class of $D_{aux}$ --> 25; #class of $D_{sur}$ --> 26
 
 ### Step 1: Data Preprocessing
-Extract audio features for "D" and "Dsur" respectively.
+Extract audio features for $D$ and $D_{sur}$ respectively.
 ```shell
 python data_preprocessing.py
 ```
 ### Step 2: Obtain the Surrogate Model
-Train the surrogate model on Dsur
+Train the surrogate model on $D_{sur}$
 ```shell
 python Benign_Model.py
 ```
@@ -29,8 +29,8 @@ Optimize the trigger on the surrogate model
 ```shell
 python generate_trigger.py
 ```
-### Step 3: Data Poisoning and Backdoor Injection
-Poison D and train SmallCNN on poisonous D
+### Step 4: Data Poisoning and Backdoor Injection
+Poison $D$ and train SmallCNN on poisonous $D$
 ```shell
 python Attack.py
 ```
