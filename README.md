@@ -12,10 +12,15 @@ dataset --> Google Speech Command Dataset V2
 
 target model --> SmallCNN；surrogate model --> LargeCNN
 
-#class of D --> 10; #class of D_aux --> 25
+#class of D --> 10; #class of D_aux --> 25; #class of D_sur --> 26
 
 ### Step 1: Data Preprocessing
-Extract audio features of D and Daux respectively.
+Extract audio features for "D" and "Daux+target class" respectively.
+```shell
+python data_preprocessing.py
+```
+### Step 2:Obtain the Surrogate Model
+Train the surrogate model on 
 ```shell
 python data_preprocessing.py
 ```
