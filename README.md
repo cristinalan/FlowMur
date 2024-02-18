@@ -7,8 +7,11 @@ Jiahe Lan, Jie Wang, Baochen Yan, Zheng Yan and Elisa Bertino, "[FlowMur: A Stea
 
 ## How to start
 This example is for the following setting:
+
 dataset --> Google Speech Command Dataset V2
+
 target model --> SmallCNN；surrogate model --> LargeCNN
+
 #class of D --> 10; #class of D_aux --> 25
 
 ### Step 1: Data Preprocessing
