@@ -34,14 +34,6 @@ Poison $D$ and train SmallCNN on poisonous $D$
 ```shell
 python Attack.py
 ```
-@inproceedings{lan2024flowmur,
-  title={FlowMur: A Stealthy and Practical Audio Backdoor Attack with Limited Knowledge},
-  author={Lan, Jiahe and Wang, Jie and Yan, Baochen and Yan, Zheng and Bertino, Elisa},
-  booktitle={2024 IEEE Symposium on Security and Privacy (SP)},
-  pages={148--148},
-  year={2024},
-  organization={IEEE Computer Society}
-}
 
 ## How to cite
 If you find this work useful, please consider citing it as follows:
